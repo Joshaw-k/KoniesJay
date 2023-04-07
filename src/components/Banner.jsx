@@ -1,6 +1,6 @@
 import React from 'react'
 // images
-import Image from '../assets/avatar.svg'
+import Image from '../assets/avatar_n.png'
 // icons
 import { FaGithub, FaYoutube, FaDribbble } from 'react-icons/fa'
 // type animation
@@ -27,7 +27,7 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="text-[55px] font-bold leading-[0.8] lg:text-[110px]"
             >
-              BEN <span>AIDEN</span>
+              DEV <span>JOSH</span>
             </motion.h1>
             <motion.div
               variants={fadeIn('up', 0.4)}
@@ -36,16 +36,9 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1]"
             >
-              <span className="text-white mr-4">I am a </span>
+              <span className="text-white mr-4">I am a</span>
               <TypeAnimation
-                sequence={[
-                  'Designer',
-                  2000,
-                  'Developer',
-                  2000,
-                  'Youtube',
-                  2000,
-                ]}
+                sequence={['Designer', 2000, 'Developer', 2000]}
                 speed={50}
                 className="text-accent"
                 wrapper="span"

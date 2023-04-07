@@ -9,22 +9,17 @@ import { fadeIn } from '../variants'
 // services data
 const services = [
   {
-    name: 'UI/UX Designer',
+    name: 'Web Designer',
     desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi consectetur fuga iste dolore aut explicabo aperiam recusandae corrupti perspiciatis dolores?',
     link: 'Learn more',
   },
   {
-    name: 'Development',
+    name: 'Software Developer',
     desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi consectetur fuga iste dolore aut explicabo aperiam recusandae corrupti perspiciatis dolores?',
     link: 'Learn more',
   },
   {
-    name: 'Digital Marketing',
-    desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi consectetur fuga iste dolore aut explicabo aperiam recusandae corrupti perspiciatis dolores?',
-    link: 'Learn more',
-  },
-  {
-    name: 'Product Branding',
+    name: 'Web3 Developer',
     desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi consectetur fuga iste dolore aut explicabo aperiam recusandae corrupti perspiciatis dolores?',
     link: 'Learn more',
   },
@@ -41,12 +36,11 @@ const Services = () => {
             initial="hidden"
             whileInView={'show'}
             viewport={{ once: false, amount: 0.3 }}
-            className="flex-1 lg:bg-services lg:bg-bottom bg-no-repeat mix-blend-lighten mb-12 lg:mb-0"
+            className="flex-1 mix-blend-lighten mb-12 lg:mb-0"
           >
             <h2 className="h2 text-accent mb-6">What I Do.</h2>
             <h3 className="h3 max-w-[455px] mb-16">
-              I'm a Freelance Front-end Developer with over 5 years of
-              experience
+              I'm a Freelance Front-end Developer with over 1 year of experience
             </h3>
             <button className="btn btn-sm">See my work</button>
           </motion.div>
