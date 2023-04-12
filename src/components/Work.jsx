@@ -4,15 +4,15 @@ import { motion } from 'framer-motion'
 // variants
 import { fadeIn } from '../variants'
 // img
-import Img1 from '../assets/portfolio-img1.png'
-import Img2 from '../assets/Capture_2.png'
-import Img3 from '../assets/Capture_3.png'
-import Img4 from '../assets/Capture_4.png'
-import Img5 from '../assets/Capture_5.png'
-import Img6 from '../assets/Capture_6.png'
-import Img7 from '../assets/Capture_7.png'
-import Img8 from '../assets/Capture_8.png'
-import Img9 from '../assets/Capture_9.png'
+import Img1 from '../assets/portfolio-img-1.png'
+import Img2 from '../assets/portfolio-img-2.png'
+import Img3 from '../assets/portfolio-img-3.png'
+import Img4 from '../assets/portfolio-img-4.png'
+import Img5 from '../assets/portfolio-img-5.png'
+import Img6 from '../assets/portfolio-img-6.png'
+import Img7 from '../assets/portfolio-img-7.png'
+import Img8 from '../assets/portfolio-img-8.png'
+import Img9 from '../assets/portfolio-img-9.png'
 const Work = () => {
   return (
     <>
