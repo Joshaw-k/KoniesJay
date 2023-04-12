@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 // variants
 import { fadeIn } from '../variants'
 // img
-import Img1 from '../../dist/assets/Capture_1.png'
+import Img1 from '../assets/Capture_1.png'
 import Img2 from '../assets/Capture_2.png'
 import Img3 from '../assets/Capture_3.png'
 import Img4 from '../assets/Capture_4.png'
