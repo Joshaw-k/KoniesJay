@@ -9,6 +9,7 @@ import { TypeAnimation } from 'react-type-animation'
 import { motion } from 'framer-motion'
 // variants
 import { fadeIn } from '../variants'
+import { Link } from 'react-scroll'
 
 const Banner = () => {
   return (
@@ -62,10 +63,14 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="flex gap-x-6 max-w-max mx-auto lg:mx-0 items-center mb-12"
             >
-              <button className="btn btn-lg">Contact me</button>
-              <a href="#" className="text-gradient btn-link">
+              <button className="btn btn-lg">
+                <Link to="contact" smooth={true}>
+                  Contact me
+                </Link>
+              </button>
+              <Link to="work" smooth={true} className="text-gradient btn-link">
                 My Portfolio
-              </a>
+              </Link>
             </motion.div>
           </div>
           {/* image */}
