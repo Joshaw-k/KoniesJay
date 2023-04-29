@@ -35,16 +35,10 @@ const Banner = () => {
               initial="hidden"
               whileInView={'show'}
               viewport={{ once: false, amount: 0.7 }}
-              className="mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1]"
+              className="mb-4 text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1]"
             >
-              <span className="text-white mr-4">I am a</span>
-              <TypeAnimation
-                sequence={['Designer', 2000, 'Developer', 2000]}
-                speed={50}
-                className="text-accent"
-                wrapper="span"
-                repeat={Infinity}
-              />
+              <p className="text-white mr-4">I am a <span className="text-accent">Developer</span></p>
+              
             </motion.div>
             <motion.p
               variants={fadeIn('up', 0.5)}
@@ -53,8 +47,7 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="mb-8 max-w-lg mx-auto lg:mx-0"
             >
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus
-              dolorum dicta magnam, id nam a
+              I'm a motivated professional whose expertise is in HTML5, CSS3, JavaScript, TailwindCSS, ReactJS, Python, and API's. Adept at troubleshooting and resolving complex technical issues, while consistently meeting deadlines and client expectations.
             </motion.p>
             <motion.div
               variants={fadeIn('up', 0.6)}
@@ -68,7 +61,7 @@ const Banner = () => {
                   Contact me
                 </Link>
               </button>
-              <Link to="work" smooth={true} className="text-gradient btn-link">
+              <Link to="work" smooth={true} className="text-gradient btn-link cursor-pointer">
                 My Portfolio
               </Link>
             </motion.div>

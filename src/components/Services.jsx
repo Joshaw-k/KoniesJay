@@ -5,23 +5,21 @@ import { BsArrowUpRight } from 'react-icons/bs'
 import { motion } from 'framer-motion'
 // variants
 import { fadeIn } from '../variants'
+import { Link } from 'react-scroll'
 
 // services data
 const services = [
   {
-    name: 'Web Designer',
-    desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi consectetur fuga iste dolore aut explicabo aperiam recusandae corrupti perspiciatis dolores?',
-    link: 'Learn more',
+    name: 'Software Development',
+    desc: 'Taking responsibility in the development and maintenance of software applications, and work closely with other professionals, including project managers, designers, and quality assurance testers, to ensure the success of software projects.'
   },
   {
-    name: 'Software Developer',
-    desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi consectetur fuga iste dolore aut explicabo aperiam recusandae corrupti perspiciatis dolores?',
-    link: 'Learn more',
+    name: 'Web Design',
+    desc: 'I create the visual and aesthetic components of websites, and work closely with clients to understand their needs and create designs that reflect their brand and message.'
   },
   {
-    name: 'Web3 Developer',
-    desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi consectetur fuga iste dolore aut explicabo aperiam recusandae corrupti perspiciatis dolores?',
-    link: 'Learn more',
+    name: 'Web3 Development',
+    desc: 'I like building user interfaces (UI) for decentralized applications (dApps) using web3 technologies, using a javascript framework like React, and others to create responsive, intuitive, and user-friendly interfaces.'
   },
 ]
 
@@ -42,7 +40,7 @@ const Services = () => {
             <h3 className="h3 max-w-[455px] mb-16">
               I'm a Freelance Front-end Developer with over 1 year of experience
             </h3>
-            <button className="btn btn-sm">See my work</button>
+            <button className="btn btn-sm"><a  href="https://github.com/Joshaw-k" target="_blank">See my work</a></button>
           </motion.div>
           {/* services */}
           <motion.div
@@ -54,26 +52,19 @@ const Services = () => {
           >
             {/* services list */}
             {services.map((service, index) => {
-              const { name, desc, link } = service
+              const { name, desc } = service
               return (
                 <div
                   key={index}
-                  className="border-b border-white/20 h-[146px] mb-[38px] flex"
+                  className="border-b border-white/20 mb-[38px] flex pb-4"
                 >
                   <div className="max-w-[476px]">
-                    <h4 className="text-[20px] tracking-wider font-primary font-semibold mb-6">
+                    <h4 className="text-[20px] tracking-wider font-primary font-semibold mb-6 text-accent">
                       {name}
                     </h4>
                     <p className="font-secondary leading-tight">{desc}</p>
                   </div>
-                  <div className="flex flex-col flex-1 items-end">
-                    <a
-                      href="#"
-                      className="btn w-9 h-9 mb-[42px] flex justify-center items-center"
-                    >
-                      <BsArrowUpRight />
-                    </a>
-                  </div>
+                  
                 </div>
               )
             })}

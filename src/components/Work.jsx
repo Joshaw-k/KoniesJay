@@ -13,6 +13,7 @@ import Img6 from '../assets/portfolio-img-6.png'
 import Img7 from '../assets/portfolio-img-7.png'
 import Img8 from '../assets/portfolio-img-8.png'
 import Img9 from '../assets/portfolio-img-9.png'
+import { Link } from 'react-scroll'
 const Work = () => {
   return (
     <>
@@ -32,11 +33,9 @@ const Work = () => {
                   My Latest <br /> Work
                 </h2>
                 <p className="max-w-sm mb-10">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Cumque eligendi totam deleniti exercitationem, quasi
-                  consectetur error reprehenderit rem ratione sapiente!
+                  These are my recent projects i've been working on with my frontend development skills, using reactjs, tailwindcss and lots more.
                 </p>
-                <button className="btn btn-sm">View all projects</button>
+                <button className="btn btn-sm"><Link smooth={true} spy={true} to='moreProjects'>View more</Link></button>
               </div>
               {/* image */}
               <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl h-60">
@@ -72,7 +71,7 @@ const Work = () => {
               className="flex-1 flex flex-col gap-y-10 justify-between"
             >
               {/* image */}
-              <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl h-2/5">
+              <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl h-[42%]">
                 {/* overlay */}
                 <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
                 {/* img */}
@@ -97,7 +96,7 @@ const Work = () => {
                 </div>
               </div>
               {/* image */}
-              <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl  h-2/5">
+              <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl  h-[42%]">
                 {/* overlay */}
                 <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
                 {/* img */}
@@ -125,7 +124,7 @@ const Work = () => {
           </div>
         </div>
       </section>
-      <section className="section">
+      <section className="section" id="moreProjects">
         <div className="container mx-auto">
           <div className="grid grid-cols-1 gap-y-10">
             <motion.h2
@@ -135,7 +134,7 @@ const Work = () => {
               viewport={{ once: false, amount: 0.3 }}
               className="h2 leading-tight text-accent text-center"
             >
-              Mini Projects
+              More Projects
             </motion.h2>
             <div className="flex flex-col gap-y-10">
               <motion.div
