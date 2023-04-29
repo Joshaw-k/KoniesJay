@@ -50,9 +50,7 @@ const Work = () => {
                 {/* title */}
                 <div className="absolute -bottom-full left-12 group-hover:bottom-8 transition-all duration-700 z-50">
                   <span className="text-white text-xl">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Maiores dignissimos sapiente distinctio fugit saepe
-                    eligendi.
+                    This is a furniture e-commerce application where customers can purchase furnitures of their choice.
                   </span>
                 </div>
               </div>
@@ -79,9 +77,7 @@ const Work = () => {
                 {/* title */}
                 <div className="absolute -bottom-full left-12 group-hover:bottom-3 lg:group-hover:bottom-6 transition-all duration-700 z-50">
                   <span className="text-white text-xl">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Maiores dignissimos sapiente distinctio fugit saepe
-                    eligendi.
+                    This application helps jobseeker keep track of jobs they have applied for and displays the current status of the job.
                   </span>
                 </div>
               </div>
@@ -104,9 +100,7 @@ const Work = () => {
                 {/* title */}
                 <div className="absolute -bottom-full left-12 group-hover:bottom-3 lg:group-hover:bottom-6 transition-all duration-700 z-50">
                   <span className="text-white text-xl">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Maiores dignissimos sapiente distinctio fugit saepe
-                    eligendi.
+                    This is a mini Github application where users can visualize their activities on the main github application.
                   </span>
                 </div>
               </div>
@@ -145,14 +139,6 @@ const Work = () => {
                       <span className="text-gradient text-2xl">QuizApp</span>
                     </a>
                   </div>
-                  {/* title */}
-                  <div className="absolute -bottom-full left-12 group-hover:bottom-3 transition-all duration-700 z-50">
-                    <span className="text-white text-sm">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Maiores dignissimos sapiente distinctio fugit saepe
-                      eligendi.
-                    </span>
-                  </div>
                 </div>
                 {/* image */}
                 <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
@@ -169,14 +155,6 @@ const Work = () => {
                     <a href="https://ths-news.vercel.app/" target="_blank">
                       <span className="text-gradient text-2xl">THSNews</span>
                     </a>
-                  </div>
-                  {/* title */}
-                  <div className="absolute -bottom-full left-12 group-hover:bottom-3 transition-all duration-700 z-50">
-                    <span className="text-white text-sm">
-                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                      Accusamus, ad quod repudiandae dignissimos recusandae
-                      cupiditate.
-                    </span>
                   </div>
                 </div>
                 {/* image */}
@@ -197,14 +175,6 @@ const Work = () => {
                     >
                       <span className="text-gradient  text-2xl">TodoList</span>
                     </a>
-                  </div>
-                  {/* title */}
-                  <div className="absolute -bottom-full left-12 group-hover:bottom-3 transition-all duration-700 z-50">
-                    <span className="text-white text-sm">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Maiores dignissimos sapiente distinctio fugit saepe
-                      eligendi.
-                    </span>
                   </div>
                 </div>
               </div>
@@ -229,14 +199,6 @@ const Work = () => {
                       </span>
                     </a>
                   </div>
-                  {/* title */}
-                  <div className="absolute -bottom-full left-12 group-hover:bottom-3 transition-all duration-700 z-50">
-                    <span className="text-white text-sm">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Maiores dignissimos sapiente distinctio fugit saepe
-                      eligendi.
-                    </span>
-                  </div>
                 </div>
                 {/* image */}
                 <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
@@ -257,14 +219,6 @@ const Work = () => {
                       <span className="text-gradient  text-2xl">DarkMode</span>
                     </a>
                   </div>
-                  {/* title */}
-                  <div className="absolute -bottom-full left-12 group-hover:bottom-3 transition-all duration-700 z-50">
-                    <span className="text-white text-sm">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Maiores dignissimos sapiente distinctio fugit saepe
-                      eligendi.
-                    </span>
-                  </div>
                 </div>
                 {/* image */}
                 <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
@@ -281,14 +235,6 @@ const Work = () => {
                     <a href="https://cinemax-phi.vercel.app/" target="_blank">
                       <span className="text-gradient  text-2xl">Cinemax</span>
                     </a>
-                  </div>
-                  {/* title */}
-                  <div className="absolute -bottom-full left-12 group-hover:bottom-3 transition-all duration-700 z-50">
-                    <span className="text-white text-sm">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Maiores dignissimos sapiente distinctio fugit saepe
-                      eligendi.
-                    </span>
                   </div>
                 </div>
               </div>
