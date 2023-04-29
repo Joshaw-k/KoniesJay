@@ -1,11 +1,4 @@
 import React from 'react'
-// icon
-import { BsArrowUpRight } from 'react-icons/bs'
-// motion
-import { motion } from 'framer-motion'
-// variants
-import { fadeIn } from '../variants'
-import { Link } from 'react-scroll'
 
 // services data
 const services = [
@@ -29,11 +22,7 @@ const Services = () => {
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row">
           {/* text & image */}
-          <motion.div
-            variants={fadeIn('right', 0.5)}
-            initial="hidden"
-            whileInView={'show'}
-            viewport={{ once: false, amount: 0.3 }}
+          <div
             className="flex-1 mix-blend-lighten mb-12 lg:mb-0"
           >
             <h2 className="h2 text-accent mb-6">What I Do.</h2>
@@ -41,13 +30,9 @@ const Services = () => {
               I'm a Freelance Front-end Developer with over 1 year of experience
             </h3>
             <button className="btn btn-sm"><a  href="https://github.com/Joshaw-k" target="_blank">See my work</a></button>
-          </motion.div>
+          </div>
           {/* services */}
-          <motion.div
-            variants={fadeIn('left', 0.5)}
-            initial="hidden"
-            whileInView={'show'}
-            viewport={{ once: false, amount: 0.3 }}
+          <div
             className="flex-1"
           >
             {/* services list */}
@@ -68,7 +53,7 @@ const Services = () => {
                 </div>
               )
             })}
-          </motion.div>
+          </div>
         </div>
       </div>
     </section>

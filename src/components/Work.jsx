@@ -1,6 +1,4 @@
 import React from 'react'
-// motion
-import { motion } from 'framer-motion'
 // variants
 import { fadeIn } from '../variants'
 // img
@@ -20,11 +18,7 @@ const Work = () => {
       <section className="section" id="work">
         <div className="container mx-auto">
           <div className="flex flex-col lg:flex-row gap-x-10 mb-10">
-            <motion.div
-              variants={fadeIn('right', 0.3)}
-              initial="hidden"
-              whileInView={'show'}
-              viewport={{ once: false, amount: 0.3 }}
+            <div
               className="flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0"
             >
               {/* text */}
@@ -62,12 +56,8 @@ const Work = () => {
                   </span>
                 </div>
               </div>
-            </motion.div>
-            <motion.div
-              variants={fadeIn('left', 0.3)}
-              initial="hidden"
-              whileInView={'show'}
-              viewport={{ once: false, amount: 0.3 }}
+            </div>
+            <div
               className="flex-1 flex flex-col gap-y-10 justify-between"
             >
               {/* image */}
@@ -120,28 +110,20 @@ const Work = () => {
                   </span>
                 </div>
               </div>
-            </motion.div>
+            </div>
           </div>
         </div>
       </section>
       <section className="section" id="moreProjects">
         <div className="container mx-auto">
           <div className="grid grid-cols-1 gap-y-10">
-            <motion.h2
-              variants={fadeIn('right', 0.3)}
-              initial="hidden"
-              whileInView={'show'}
-              viewport={{ once: false, amount: 0.3 }}
+            <h2
               className="h2 leading-tight text-accent text-center"
             >
               More Projects
-            </motion.h2>
+            </h2>
             <div className="flex flex-col gap-y-10">
-              <motion.div
-                variants={fadeIn('left', 0.3)}
-                initial="hidden"
-                whileInView={'show'}
-                viewport={{ once: false, amount: 0.3 }}
+              <div
                 className="flex-1 flex flex-col lg:flex-row gap-x-10 gap-y-10"
               >
                 {/* image */}
@@ -225,12 +207,8 @@ const Work = () => {
                     </span>
                   </div>
                 </div>
-              </motion.div>
-              <motion.div
-                variants={fadeIn('right', 0.3)}
-                initial="hidden"
-                whileInView={'show'}
-                viewport={{ once: false, amount: 0.3 }}
+              </div>
+              <div
                 className="flex-1 flex flex-col lg:flex-row gap-x-10  gap-y-10"
               >
                 {/* image */}
@@ -313,7 +291,7 @@ const Work = () => {
                     </span>
                   </div>
                 </div>
-              </motion.div>
+              </div>
             </div>
           </div>
         </div>
